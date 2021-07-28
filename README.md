@@ -33,4 +33,4 @@ Vue.use(IconFont)
 ### your-iconfont-symbbol-url的获取方式如图
 
 
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/21bd074925a848c1aeac36530d33d6db~tplv-k3u1fbpfcp-watermark.image)
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a596f12b57574bf69f81e0af2a5990da~tplv-k3u1fbpfcp-watermark.image)
