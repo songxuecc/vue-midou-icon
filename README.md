@@ -31,4 +31,6 @@ const IconFont = MdUi.createFromIconfontCN({
 Vue.use(IconFont)
 ```
 ### your-iconfont-symbbol-url的获取方式如图
-![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.pnghttps://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/21bd074925a848c1aeac36530d33d6db~tplv-k3u1fbpfcp-watermark.image
+
+
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/21bd074925a848c1aeac36530d33d6db~tplv-k3u1fbpfcp-watermark.image)
