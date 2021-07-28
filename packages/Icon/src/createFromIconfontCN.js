@@ -26,7 +26,7 @@ function createScriptUrlElements (scriptUrls, index = 0) {
   }
 }
 
-export default function createHhIcon (scriptUrl) {
+export default function createFromIconfontCN ({scriptUrl,name = 'md-icon'}) {
   // DOM API 兼容
   if (
     scriptUrl &&
@@ -41,6 +41,15 @@ export default function createHhIcon (scriptUrl) {
       createScriptUrlElements([scriptUrl])
     }
   }
-
-  return Icon
+  
+  return  {
+    ...Icon,
+    // 组件名称
+    name,
+    // 组件注册函数
+    /* istanbul ignore next */
+    install:function(Vue) {
+      Vue.component(name, Icon);
+    }
+  }
 }

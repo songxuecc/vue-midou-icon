@@ -1,5 +1,4 @@
-// 导入Icon组件
-import Icon from '../packages/Icon'
+import Icon, {createFromIconfontCN} from '../packages/icon/index.js';
  
 // 组件列表
 const components = [
@@ -15,6 +14,7 @@ const install = function (Vue) {
 }
  
 // 判断是否是直接引入文件
+/* istanbul ignore if */
 if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue)
 }
@@ -23,5 +23,6 @@ export default {
   // 导出的对象必须具有 install，才能被 Vue.use() 方法安装
   install,
   // 以下是具体的组件列表
-  Icon
+  Icon,
+  createFromIconfontCN
 }
