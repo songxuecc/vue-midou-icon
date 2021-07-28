@@ -1,8 +1,14 @@
 {
   "name": "vue-midou-icon",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "Vue.JS 的icon组件,类似antd的icon",
   "main":"lib/midou.umd.min.js",
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/songxuecc/vue-midou-icon.git"
+  },
+  "author":"577281375@qq.com",
+  "keywords":"['vue','icon']",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
